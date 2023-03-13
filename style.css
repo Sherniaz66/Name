@@ -1,0 +1,62 @@
+body{
+
+margin: 0;
+padding: 0;}
+.container{
+background-color: rgb(122, 145, 159); 
+   width: auto;
+   height: 500px;
+   display: flex;
+   justify-content: center;   
+}
+.main img:hover{
+    transform: rotate(360deg);
+
+transition: 1s;    
+}
+.main img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    color-scheme: 100px;
+    border: 2px solid rgb(245, 243, 243);
+    
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    background-color: rgb(74, 74, 221);
+    width: 600px;
+    height: min-content;
+ border: 2px solid yellow;   
+}
+.main:hover{
+    background-color: rgb(58, 96, 61);
+    transition: 1s;
+}
+.info h2{
+    font-family:'Smokum',cursive ;
+    color: rgb(203, 26, 26);
+}
+.info{
+    margin-left: 40px;
+}
+p{
+    color: rgb(123, 94, 227);
+    font-size: 20px;
+    font-family: cursive;
+}
+.s{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
